@@ -3,9 +3,7 @@ package com.handsmade.datn.Model;
 import lombok.Data;
 
 @Data
-public class UserModel{
-
+public class LoginModel{
     private String email;
-    private String password;  
-
+    private String pass; 
 }

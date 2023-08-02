@@ -7,4 +7,5 @@ import com.handsmade.datn.Entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
+    
 }
